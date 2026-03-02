@@ -20,4 +20,12 @@ classDiagram
         + add_badge(title: string)
         + get_badges() vector~string~
   }
+  class RegisteredUser{
+    - email: string
+    - password: string
+    - badges: vector~string~
+    + login(email: string, pass: string) boolean
+    + add_badge(title: string)
+    + get_badges() vector~string~
+  }
 ```
