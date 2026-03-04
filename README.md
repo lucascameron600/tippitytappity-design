@@ -28,4 +28,9 @@ classDiagram
     + add_badge(title: string)
     + get_badges() vector~string~
   }
+  class typing test{
+-getCorrectKeystrokes()
+-getEndAt()
+-getStartedAt()
+  }
 ```
